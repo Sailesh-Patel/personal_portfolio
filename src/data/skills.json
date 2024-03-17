@@ -8,23 +8,29 @@
       "imageSrc": "/assets/skills/css.png"
     },
     {
+      "title": "Javascript",
+      "imageSrc": "/assets/skills/javascript.png"
+    },
+    {
       "title": "React",
       "imageSrc": "/assets/skills/react.png"
     },
     {
-      "title": "Node",
-      "imageSrc": "/assets/skills/node.png"
+      "title": "MySQL",
+      "imageSrc": "/assets/skills/mysql.png"
     },
     {
-      "title": "GraphQL",
-      "imageSrc": "/assets/skills/graphql.png"
+      "title": "Java",
+      "imageSrc": "/assets/skills/java.png"
     },
     {
-      "title": "MongoDB",
-      "imageSrc": "/assets/skills/mongodb.png"
+      "title": "Spring Boot",
+      "imageSrc": "/assets/skills/springboot.png"
     },
     {
-      "title": "Figma",
-      "imageSrc": "/assets/skills/figma.png"
+      "title": "Selenium",
+      "imageSrc": "/assets/skills/selenium.png"
     }
+   
+
   ]
