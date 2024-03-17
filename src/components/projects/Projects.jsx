@@ -6,9 +6,9 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
     return (
-        <section className="container" id="projects">
-            <h2 className="title">Projects</h2>
-            <div className="projects">
+        <section className="project_container" id="projects">
+            <h2 className="project_title">Projects</h2>
+            <div className="project_projects">
                 {projects.map((project, id) => {
                     return (
                         <ProjectCard  key={id} project={project}/>

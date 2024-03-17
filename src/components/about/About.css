@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-.container {
+.about_container {
     position: relative;
     background-color: rgba(12,12,12,0.6);
     border-radius: 15px;
@@ -11,7 +11,7 @@
     margin-right: 10%;
 }
 
-.title {
+.about_title {
     color: var(--color-text);
     font-size: 35px;
     font-weight: 700;
@@ -19,24 +19,24 @@
     text-transform: uppercase;
 }
 
-.content {
+.about_content {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.aboutImage {
+.about_aboutImage {
     width: 35%;
 }
 
-.aboutItems {
+.about_aboutItems {
     color: var(--color-text);
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
-.aboutItem {
+.about_aboutItem {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,39 +49,39 @@
     transition: 0.4s;
 }
 
-.aboutItem:hover {
+.about_aboutItem:hover {
     background-size: 100% 100%;
 }
 
-.aboutItem h3 {
+.about_aboutItem h3 {
     font-size: 25px;
     font-weight: 600;
 }
 
-.aboutItem p {
+.about_aboutItem p {
     font-size: 25px;
 }
 
 @media screen and (max-width: 830px) {
-    .container {
+    .about_container {
         background-color: transparent;
         padding-left: 0;
         padding-right: 0;
     }
 
-.content {
+.about_content {
     flex-direction: none;
 }
 
-.aboutImage {
+.about_aboutImage {
     display: none;
 }
 
-.aboutItems {
+.about_aboutItems {
     margin-top: 29px;
 }
 
-.aboutItem {
+.about_aboutItem {
     padding-left: 0;
     padding-right: 0;
 }

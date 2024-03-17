@@ -8,14 +8,14 @@ import { getImageUrl } from "../../utils";
 
 function Experience() {
   return (
-<section className="container" id="experience">
-    <h2 className="title" >Experience</h2>
-    <div className="content">
-        <div className="skills">
+<section className="experience_container" id="experience">
+    <h2 className="experience_title" >Experience</h2>
+    <div className="experience_content">
+        <div className="experience_skills">
             {skills.map((skill, id) => {
                 return (
-                <div key={id}  className="skill">
-                    <div  className="skillImageContainer">
+                <div key={id}  className="experience_skill">
+                    <div  className="experience_skillImageContainer">
                          <img src={skill.imageSrc}
                         alt={skill.title}></img>
                         </div>
@@ -24,14 +24,14 @@ function Experience() {
             );
         })}
         </div>
-        <ul  className="history">
+        <ul  className="experience_history">
             { history.map((historyItem, id) => {
                     return (
-                        <li key={id}  className="historyItem">
+                        <li key={id}  className="experience_historyItem">
                         <img 
                         src={historyItem.imageSrc} 
                         alt={`${historyItem.organisation} Logo`}></img>
-<div  className="historyItemDetails">
+<div  className="experience_historyItemDetails">
     <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
     <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
     <ul>{historyItem.experiences.map((experience, id) => {

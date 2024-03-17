@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-.container {
+.hero_container {
     position: relative;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@
     margin-right: 10%;
 }
 
-.content {
+.hero_content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -19,7 +19,7 @@
     z-index: 1;
 }
 
-.title {
+.hero_title {
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 33px;
@@ -29,13 +29,13 @@
     -webkit-background-clip: text;
 }
 
-.description {
+.hero_description {
     font-size: 30px;
     font-family: var(--color-text);
     margin-bottom: 52px;
 }
 
-.contactBtn {
+.hero_contactBtn {
     text-decoration: none;
     background-color: var(--color-primary) ;
     color: var(--color-text);
@@ -46,7 +46,7 @@
     box-shadow: 0 0 4px 0 rgba()0,0,0,0.25;
 }
 
-.meImg {
+.hero_meImg {
     width: 50%;
     z-index: 1;
 
@@ -69,7 +69,7 @@
     }
 }
 
-.topBlur {
+.hero_topBlur {
     position: absolute;
     width: 50vw;
     height: 50vw;
@@ -83,7 +83,7 @@
     z-index: 0;
 }
 
-.bottomBlur {
+.hero_bottomBlur {
     position: absolute;
     width: 70vw;
     height: 50vw;
@@ -98,10 +98,10 @@
 }
 
 @media screen and (max-width: 830px) {
-    .container {
+    .hero_container {
         flex-direction: column-reverse;
     }
-    .content {
+    .hero_content {
         align-items: center;
     }
 }
